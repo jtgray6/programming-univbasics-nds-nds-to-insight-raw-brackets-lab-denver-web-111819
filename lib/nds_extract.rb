@@ -28,7 +28,7 @@ row=0
     total[row]=0
     while column<nds[row][:movies].length do
       total[row]+=nds[row][:movies][column][:worldwide_gross]
-      hash[row] = {nds[row][:name]=>total[row]}
+      hash = {nds[row][:name]=>total[row]}
       column+=1
     end
     
