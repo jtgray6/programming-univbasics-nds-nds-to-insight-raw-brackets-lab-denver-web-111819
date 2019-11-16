@@ -26,12 +26,11 @@ total=[]
   while row<nds.length do
     column=0
     while column<nds[row].length do
-      total[row]=0
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
     end
     hash = {nds[row][:name]=>total[row]}
     row+=1
   end
-  hash
+  
 end
