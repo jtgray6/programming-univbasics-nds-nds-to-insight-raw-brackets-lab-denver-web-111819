@@ -31,5 +31,4 @@ total=[]
     end
     row+=1
   end
-  
 end
