@@ -31,7 +31,7 @@ row=0
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
     end
-    hash = {nds[row][:name]=>total[row]}
+    hash.merge(nds[row][:name]=>total[row])
     row+=1
   end
   hash
