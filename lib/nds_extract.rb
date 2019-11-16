@@ -29,6 +29,8 @@ total=[]
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
     end
+    final = {nds[row][:name]=>total[row]}
     row+=1
   end
+  final
 end
