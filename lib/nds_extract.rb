@@ -22,11 +22,12 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
 row=0
-final=[]
+final={}
   while row<nds.length do
     column=0
     while column<nds[row].length do
       inner=0
       while inner < nds[row][column].length
+        final{#{nds[row]}} =>
       
 end
