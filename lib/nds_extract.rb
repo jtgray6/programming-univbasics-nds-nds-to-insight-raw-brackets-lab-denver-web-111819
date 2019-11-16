@@ -21,6 +21,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+total=[]
 row=0
   while row<nds.length do
     column=0
