@@ -26,7 +26,7 @@ row=0
   while row<nds.length do
     column=0
     total[row]=0
-    while column<nds[row].length do
+    while column<nds[row][:movies].length do
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
     end
