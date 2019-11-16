@@ -22,10 +22,8 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
 row=0
-total=[]
   while row<nds.length do
     column=0
-    total[row]=0
     while column<nds[row].length do
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
