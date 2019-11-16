@@ -30,7 +30,7 @@ row=0
       total[row]+=nds[row][:movies][column][:worldwide_gross]
       column+=1
     end
-    hash[row] = {nds[row][:name]=>total[row]}
+    hash = {nds[row][:name]=>total[row]}
     row+=1
   end
   hash
