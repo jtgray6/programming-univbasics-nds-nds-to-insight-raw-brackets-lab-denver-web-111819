@@ -33,5 +33,4 @@ total=[]
     hash = {nds[row][:name]=>total[row]}
     row+=1
   end
-  
 end
